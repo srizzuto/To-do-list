@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage generated="1630535794043" clover="3.2.0">
   <project timestamp="1630535794043" name="All files">
@@ -24,3 +26,6 @@
     </file>
   </project>
 </coverage>
+
+
+/* eslint-enable */
