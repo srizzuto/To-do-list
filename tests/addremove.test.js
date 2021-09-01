@@ -70,9 +70,13 @@ describe('the edit function', () => {
 
 describe('The remove function', () => {
   test('deletes the last task', () => {
-
+    const tasks = JSON.parse(localStorage.getItem('stored'));
+    remove(tasks, (JSON.parse(localStorage.getItem('stored')))[2]);
+    expect((JSON.parse(localStorage.getItem('stored'))).length).toBe(2);
   })
-  test('updates the index of the last task', () => {
-
+  test('updates the index of the last task after delete', () => {
+    const tasks = JSON.parse(localStorage.getItem('stored'));
+    remove(tasks, (JSON.parse(localStorage.getItem('stored')))[1]);
+    expect(((JSON.parse(localStorage.getItem('stored')))[1]).index).toBe(2);
   })
 })
