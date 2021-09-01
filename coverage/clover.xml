@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630518913530" clover="3.2.0">
-  <project timestamp="1630518913530" name="All files">
-    <metrics statements="17" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1" elements="25" coveredelements="8" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1630520244302" clover="3.2.0">
+  <project timestamp="1630520244302" name="All files">
+    <metrics statements="17" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2" elements="25" coveredelements="12" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="addremove.js" path="/Users/srizzuto/Documents/Microverse/To-do-list/src/addremove.js">
-      <metrics statements="17" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1"/>
+      <metrics statements="17" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
       <line num="3" count="2" type="stmt"/>
@@ -18,9 +18,9 @@
       <line num="19" count="0" type="stmt"/>
       <line num="20" count="0" type="stmt"/>
       <line num="23" count="1" type="stmt"/>
-      <line num="24" count="0" type="stmt"/>
-      <line num="25" count="0" type="stmt"/>
-      <line num="26" count="0" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -1,4 +1,4 @@
-import { add } from '../src/addremove';
+import { add, edit } from '../src/addremove';
 
 class LocalStorageMock {
   constructor() {
@@ -57,5 +57,22 @@ describe('The add function', () => {
     add(tasks, description);
     const task = (JSON.parse(localStorage.getItem('stored')))[3].description;
     expect(task).toBe('newTask');
+  })
+})
+
+describe('the edit function', () => {
+  test('changes the description of the first task', () => {
+    const task = (JSON.parse(localStorage.getItem('stored')))[0];
+    edit(task, 'new description')
+    expect((JSON.parse(localStorage.getItem('stored')))[0].description).toBe('new description');
+  });
+})
+
+describe('The remove function', () => {
+  test('deletes the last task', () => {
+
+  })
+  test('updates the index of the last task', () => {
+
   })
 })
