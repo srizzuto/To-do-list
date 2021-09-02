@@ -1,9 +1,7 @@
-/* eslint-disable */
-
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630535794043" clover="3.2.0">
-  <project timestamp="1630535794043" name="All files">
-    <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6" elements="25" coveredelements="21" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1630593742316" clover="3.2.0">
+  <project timestamp="1630593742316" name="All files">
+    <metrics statements="19" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="7" elements="29" coveredelements="23" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="addremove.js" path="/Users/srizzuto/Documents/Microverse/To-do-list/src/addremove.js">
       <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
@@ -24,8 +22,10 @@
       <line num="25" count="1" type="stmt"/>
       <line num="26" count="1" type="stmt"/>
     </file>
+    <file name="status.js" path="/Users/srizzuto/Documents/Microverse/To-do-list/src/status.js">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>
-
-
-/* eslint-enable */
