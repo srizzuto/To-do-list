@@ -1,4 +1,6 @@
-import { add, edit, remove } from '../src/addremove';
+import {
+  add, edit, remove, removeChecked,
+} from '../src/addremove';
 
 class LocalStorageMock {
   constructor() {
@@ -88,12 +90,12 @@ describe('The Clear All function', () => {
     tasks[1].completed = true;
     removeChecked(tasks);
     expect(tasks[2].index).toBe(1);
-  })
+  });
   test('clear all done tasks, expect to have an array length of 1', () => {
-    let tasks = JSON.parse(localStorage.getItem('stored'));
+    const tasks = JSON.parse(localStorage.getItem('stored'));
     tasks[0].completed = true;
     tasks[1].completed = true;
     removeChecked(tasks);
     expect(JSON.parse(localStorage.getItem('stored')).length).toBe(1);
-  })
+  });
 });
