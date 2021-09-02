@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630596809090" clover="3.2.0">
-  <project timestamp="1630596809090" name="All files">
+<coverage generated="1630604703131" clover="3.2.0">
+  <project timestamp="1630604703131" name="All files">
     <metrics statements="19" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="9" elements="29" coveredelements="27" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="addremove.js" path="/Users/srizzuto/Documents/Microverse/To-do-list/src/addremove.js">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
