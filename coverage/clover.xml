@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1630604703131" clover="3.2.0">
+  <project timestamp="1630604703131" name="All files">
+    <metrics statements="19" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="9" elements="29" coveredelements="27" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
+    <file name="addremove.js" path="/Users/srizzuto/Documents/Microverse/To-do-list/src/addremove.js">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="8" count="6" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="6" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="6" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+    </file>
+    <file name="status.js" path="/Users/srizzuto/Documents/Microverse/To-do-list/src/status.js">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
