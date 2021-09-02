@@ -1,27 +1,29 @@
+/* stylelint-disable */
+
 body, html {
   margin:0; padding: 0;
   height: 100%;
 }
 body {
-    font-family: Helvetica Neue, Helvetica, Arial;
-    font-size: 14px;
-    color:#333;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-size: 14px;
+  color:#333;
 }
 .small { font-size: 12px; }
 *, *:after, *:before {
   -webkit-box-sizing:border-box;
-     -moz-box-sizing:border-box;
-          box-sizing:border-box;
-  }
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
 h1 { font-size: 20px; margin: 0;}
 h2 { font-size: 14px; }
 pre {
-    font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    margin: 0;
-    padding: 0;
-    -moz-tab-size: 2;
-    -o-tab-size:  2;
-    tab-size: 2;
+  font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  margin: 0;
+  padding: 0;
+  -moz-tab-size: 2;
+  -o-tab-size:  2;
+  tab-size: 2;
 }
 a { color:#0074D9; text-decoration:none; }
 a:hover { text-decoration:underline; }
@@ -42,7 +44,7 @@ a:hover { text-decoration:underline; }
   height:0;
   clear:both;
   visibility:hidden;
-  }
+}
 .fl { float: left; }
 @media only screen and (max-width:640px) {
   .col3 { width:100%; max-width:100%; }
@@ -78,40 +80,40 @@ table.coverage td {
   vertical-align: top;
 }
 table.coverage td.line-count {
-    text-align: right;
-    padding: 0 5px 0 20px;
+  text-align: right;
+  padding: 0 5px 0 20px;
 }
 table.coverage td.line-coverage {
-    text-align: right;
-    padding-right: 10px;
-    min-width:20px;
+  text-align: right;
+  padding-right: 10px;
+  min-width:20px;
 }
 
 table.coverage td span.cline-any {
-    display: inline-block;
-    padding: 0 5px;
-    width: 100%;
+  display: inline-block;
+  padding: 0 5px;
+  width: 100%;
 }
 .missing-if-branch {
-    display: inline-block;
-    margin-right: 5px;
-    border-radius: 3px;
-    position: relative;
-    padding: 0 4px;
-    background: #333;
-    color: yellow;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 3px;
+  position: relative;
+  padding: 0 4px;
+  background: #333;
+  color: yellow;
 }
 
 .skip-if-branch {
-    display: none;
-    margin-right: 10px;
-    position: relative;
-    padding: 0 4px;
-    background: #ccc;
-    color: white;
+  display: none;
+  margin-right: 10px;
+  position: relative;
+  padding: 0 4px;
+  background: #ccc;
+  color: white;
 }
 .missing-if-branch .typ, .skip-if-branch .typ {
-    color: inherit !important;
+  color: inherit !important;
 }
 .coverage-summary {
   border-collapse: collapse;
@@ -139,17 +141,17 @@ table.coverage td span.cline-any {
 .coverage-summary tfoot td { }
 
 .coverage-summary .sorter {
-    height: 10px;
-    width: 7px;
-    display: inline-block;
-    margin-left: 0.5em;
-    background: url(sort-arrow-sprite.png) no-repeat scroll 0 0 transparent;
+  height: 10px;
+  width: 7px;
+  display: inline-block;
+  margin-left: 0.5em;
+  background: url(sort-arrow-sprite.png) no-repeat scroll 0 0 transparent;
 }
 .coverage-summary .sorted .sorter {
-    background-position: 0 -20px;
+  background-position: 0 -20px;
 }
 .coverage-summary .sorted-desc .sorter {
-    background-position: 0 -10px;
+  background-position: 0 -10px;
 }
 .status-line {  height: 10px; }
 /* yellow */
@@ -185,11 +187,11 @@ table.coverage td span.cline-any {
 span.cline-neutral { background: #eaeaea; }
 
 .coverage-summary td.empty {
-    opacity: .5;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    line-height: 1;
-    color: #888;
+  opacity: .5;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height: 1;
+  color: #888;
 }
 
 .cover-fill, .cover-empty {
@@ -200,15 +202,15 @@ span.cline-neutral { background: #eaeaea; }
   line-height: 0;
 }
 .cover-empty {
-    background: white;
+  background: white;
 }
 .cover-full {
-    border-right: none !important;
+  border-right: none !important;
 }
 pre.prettyprint {
-    border: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .com { color: #999 !important; }
 .ignore-none { color: #999; font-weight: normal; }
@@ -222,3 +224,5 @@ pre.prettyprint {
 .footer, .push {
   height: 48px;
 }
+
+/* stylelint-enable */
